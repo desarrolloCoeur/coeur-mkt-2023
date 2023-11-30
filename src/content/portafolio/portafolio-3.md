@@ -1,8 +1,8 @@
 ---
-title: 'Beach Please'
+title: 'JETOUR'
 services: ['Desarrollo web', 'Desarrollo de Marca']
 description: 'Lorem impsum...'
-heroImage: '/images/beach-please.png'
-gallery: ['/images/arte-zana.png', '/images/arte-zana.png']
+heroImage: '/images/IMG_9863.webp'
+gallery: ['/images/IMG_9863.webp',]
 ---
 
