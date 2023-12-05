@@ -1,20 +1,44 @@
 ---
 import { getCollection } from 'astro:content';
-import BlogPost from '../../layouts/PortafolioLayout.astro';
+import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('portafolio');
 	return posts.map((post) => ({
 		params: { slug: post.slug },
-		props: post,
+		props: { post },
 	}));
 }
 // type Props = CollectionEntry<'portafolio'>;
 
-const post = Astro.props;
+const { post } = Astro.props;
 const { Content } = await post.render();
 ---
+<Layout title='Portafolio | '>
+	<div class="relative">
+		<img src={post.data.heroImage} class="pt-30 max-h-[600px] w-full object-cover">
+	</div>
+	<div class="container grid lg:grid-cols-3 gap-10 pt-16 max-w-screen-xl mx-auto">
 
-<BlogPost {...post.data}>
-	<Content />
-</BlogPost>
+		<div class="lg:col-span-1 bg-red-100 p-5 rounded-lg">
+			<h1 class="uppercase text-6xl font-bold text-[#F93348]">Proyecto: {post.data.title}</h1>
+			{
+				post.data.services.map((service, index) => (
+					<div>
+						{service}
+					</div>
+				))
+			}
+			<p class="text-xl mt-6">{post.data.description}</p>
+		</div>
+		<div class="lg:col-span-2 ">
+			<img src={post.data.heroImage} class="w-full"/>
+		</div>
+
+		<Content />
+	</div>
+	
+	
+
+</Layout>
+
