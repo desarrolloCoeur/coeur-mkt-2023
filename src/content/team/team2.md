@@ -1,5 +1,5 @@
 ---
 nombre: 'Dmitry L.'
-puesto: 'Co-funder'
+puesto: 'Lorem ipsum dolor'
 heroImage: '/images/team2.jpg'
 ---

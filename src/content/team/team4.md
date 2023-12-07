@@ -1,5 +1,5 @@
 ---
 nombre: 'Liza Ch.'
-puesto: 'SMM Manager'
+puesto: 'Lorem ipsum dolor'
 heroImage: '/images/team4.jpg'
 ---

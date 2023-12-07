@@ -1,5 +1,5 @@
 ---
 nombre: 'Dmitry I.'
-puesto: 'CEO'
+puesto: 'Lorem ipsum dolor'
 heroImage: '/images/team3.jpg'
 ---

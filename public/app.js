@@ -61,12 +61,17 @@ var swiper = new Swiper(".mySwiper", {
       },
       768: {
         slidesPerView: 3,
-        spaceBetween: 40,
+        spaceBetween: 20,
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 50,
+        spaceBetween: 20,
       },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      
     },
   });
 
