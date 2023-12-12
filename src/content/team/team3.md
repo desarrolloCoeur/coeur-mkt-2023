@@ -1,5 +1,5 @@
 ---
-nombre: 'Maksym A.'
-puesto: 'Product designer'
-heroImage: '/images/team.jpg'
+nombre: 'Manuel Figueroa'
+puesto: 'Community Manager'
+heroImage: '/images/team/manuel.webp'
 ---
