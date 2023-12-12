@@ -116,6 +116,29 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
+
+  var swiper = new Swiper(".mySwiper4", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+      },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+     
+      
+    },
+  });
+
+
   window.onload = function () {
     document.getElementById("captcha").innerHTML = "";
     var charsArray =

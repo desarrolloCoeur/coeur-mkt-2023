@@ -1,5 +1,5 @@
 ---
-nombre: 'Dmitry L.'
-puesto: 'Lorem ipsum dolor'
-heroImage: '/images/team2.jpg'
+nombre: 'Katia Dorantes'
+puesto: 'Head of Mkt & Social Media'
+heroImage: '/images/team/katia.webp'
 ---

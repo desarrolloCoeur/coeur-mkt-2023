@@ -1,5 +1,5 @@
 ---
-nombre: 'Liza Ch.'
-puesto: 'Lorem ipsum dolor'
-heroImage: '/images/team4.jpg'
+nombre: 'Armando Borbon'
+puesto: 'Diseño y Fotografía'
+heroImage: '/images/team2.jpg'
 ---

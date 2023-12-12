@@ -1,5 +1,5 @@
 ---
-nombre: 'Dmitry L.'
-puesto: 'Lorem ipsum dolor'
-heroImage: '/images/team6.jpg'
+nombre: 'Arely Quiñonez'
+puesto: 'Desarrollador Web Jr.'
+heroImage: '/images/team5.jpg'
 ---
