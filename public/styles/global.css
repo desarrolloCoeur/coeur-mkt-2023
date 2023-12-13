@@ -88,6 +88,8 @@ img {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-
 	backdrop-filter: blur(15vmax);
+	-webkit-backdrop-filter: blur(15vmax);
+	filter: blur(0);
+
 }
