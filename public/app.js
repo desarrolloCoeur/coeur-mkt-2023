@@ -206,6 +206,10 @@ var swiper = new Swiper(".mySwiper", {
 };
 
 const blob = document.querySelector('#blob');
+const servicesHero = document.querySelector('#services-hero');
+
+const servicesHeroChildrens = servicesHero.children;
+
 
 window.onpointermove = (e) => {
   const {clientX , clientY} = e;
@@ -214,6 +218,27 @@ window.onpointermove = (e) => {
       left: `${clientX}px`,
       top: `${clientY}px`
     },
-    {duration: 3000, fill:"forwards"}
+    {duration: 4000, fill:"forwards"}
   )
 }
+
+blob.classList.add('animacion-1')
+
+setTimeout( () => {
+  header.classList.remove('hidden')
+  header.classList.add('animation-header')
+}, 2300)
+
+setTimeout( () => {
+  for (var i = 0; i < servicesHeroChildrens.length; i++){
+    servicesHeroChildrens[i].classList.add('animation-services')
+  }
+}, 2400)
+
+blob.addEventListener('animationend', e =>{
+
+  if(blob.classList.contains('animacion-1')){
+      blob.classList.remove('animacion-1');
+      blob.classList.add('animacion-2');
+  }
+})
